@@ -1,3 +1,7 @@
+## current status:
+* cloned to local repo
+* git initialed
+* virtually no changes
 
 # Iterators Lab
 ## Functional Programming
