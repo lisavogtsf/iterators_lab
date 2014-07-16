@@ -18,7 +18,14 @@ var Iterators = (function() {
         }
       }
       return min;
-    } 
+    }, 
+    each: function(numList, action){
+      var results = [];
+      for (var i = 0; i < numList.length; i++){
+        results[i] = action(numList[i], i);
+      }
+      return results;      
+    }    
 
   };
 

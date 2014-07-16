@@ -23,7 +23,7 @@ In the iterators lab we will be continuing our exploration of iterators and buil
 
 * `max` takes in an array as a parameter and returns the largest number from the array. If the input is an empty array, `max` returns -Infinity.  `var x = [3, 8, 2, 5].max();` `x = 2`
 * `min` takes in an array as a parameter and returns the smallest number from the array. If the input is an empty array, `min` returns Infinity. `var x = [3, 8, 2, 5].min();` `x = 2`
-* `each` takes in an array and a designated function as parameters, applying the function to every item in the array. Generally does not return a value, instead producing side effects for each item. `[3, 8, 2, 5].each(console.log(currentItem));` `=> 3, 8, 2, 5`
+* `each` takes in an array and a designated function as parameters. It applies the function to every item in the array. `each` returns an array of the result of running the function on each array item. `var x = each(list, action);` `x = [action(list[i]), action(list[i+1]), ... action(list[list.length - 1])]`
 * `map` ...
 * `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) The `filter` function takes an array as input and returns an array of all items that successfully met the stated criteria. `var x = [3, 8, 2, 5, 12].filter(function(num){num % 4 === 0});` 
 `x = [8, 12]`

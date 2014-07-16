@@ -23,8 +23,32 @@ describe('Iterators', function(){
     it("testing an empty array, should return Infinity", function(){
       expect(Iterators.min([])).to.equal(Infinity);
     })
+  })
 
-  } )
+  describe('#each', function(){
+    // it("should give small increase", function(){
+    //   var myArr = [1, 2, 3];
+    //   var addOneToMe = function(num, index){
+    //     return num + 1;
+    //   };
+
+    //   expect(Iterators.each(myArr, addOneToMe).to.equal([2, 3, 4]));
+    // })
+    // it("test the test"), function(){
+    //   expect(true).to.equal(true);
+    // }
+
+    var myArr = [1,2,3,4];
+    var x = 0;
+
+    it('should call a function on each item in an array and return original array', function() {
+      Iterators.each(myArr, function(currItem, index) { 
+        x += currItem;
+      });
+      expect(x).to.equal(10);
+    });
+
+  }) 
 
 
 })
