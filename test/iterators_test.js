@@ -20,8 +20,8 @@ describe('Iterators', function(){
     it("should find the smallest", function(){
       expect(Iterators.min([4, 6, 2, 6])).to.equal(2);
     })
-    it("adding an 'it' counts as another test", function(){
-      expect(Iterators.min([9,1])).to.equal(1);
+    it("testing an empty array, should return Infinity", function(){
+      expect(Iterators.min([])).to.equal(Infinity);
     })
 
   } )

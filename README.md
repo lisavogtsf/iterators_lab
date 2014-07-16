@@ -14,26 +14,24 @@ In the iterators lab we will be continuing our exploration of iterators and buil
 
 ### Phase-1
 
-Research the following term and summarize your findings on it two to three sentences:
+~~Research the following term and summarize your findings on it two to three sentences:~~
 
-* `higher-order function`
-A higher-order function is a function that operates on either functions.  This can be done by taking in a function as a parameter, creating a function or returning a function
+* `higher-order function` *A higher-order function is a function that operates on other functions.  This can be done by taking in a function as a parameter, creating a function or returning a function--all within a function.*
 
-Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
+~~Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:~~
 
 
-* `max`
-* `min`
-* `each`
-* `map`
-* `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+* `max` takes in an array as a parameter and returns the largest number from the array. If the input is an empty array, `max` returns -Infinity.  `var x = [3, 8, 2, 5].max();` `x = 2`
+* `min` takes in an array as a parameter and returns the smallest number from the array. If the input is an empty array, `min` returns Infinity. `var x = [3, 8, 2, 5].min();` `x = 2`
+* `each` takes in an array and a designated function as parameters, applying the function to every item in the array. Generally does not return a value, instead producing side effects for each item. `[3, 8, 2, 5].each(console.log(currentItem));` `=> 3, 8, 2, 5`
+* `map` ...
+* `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) The `filter` function takes an array as input and returns an array of all items that successfully met the stated criteria. `var x = [3, 8, 2, 5, 12].filter(function(num){num % 4 === 0});` 
+`x = [8, 12]`
 
-The function takes out all items in an array that successfully meet the criteria.
+* `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) ...
+* `reject`: [note](http://underscorejs.org/#reject) The `reject` function works like `filter` with reversed logic, so it takes in an array as a parameter and returns an array of only those items that did NOT meet the selection criteria stated. `var x = [3, 8, 2, 5, 12].reject(function(num){num % 4 === 0});` `x = [3, 2, 5]`
 
-* `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-* `reject`: [note](http://underscorejs.org/#reject)
-
-Use the notes provided to help guide you explanation.
+~~Use the notes provided to help guide you explanation.~~
 
 
 
