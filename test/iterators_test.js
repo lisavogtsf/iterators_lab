@@ -15,4 +15,13 @@ describe('Iterators', function(){
       expect(Iterators.max(myArr)).to.equal(-Infinity);
     })
   })
+
+  describe('#min', function(){
+    it("should find the smallest", function(){
+      expect(Iterators.min([7, 3, 21])).to.equal(3);
+    })
+
+  } )
+
+
 })
