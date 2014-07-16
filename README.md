@@ -1,7 +1,4 @@
-## current status:
-* cloned to local repo
-* group work with squad
-* Phase-2, wrote test for min and implemented
+lisavogtsf
 
 # Iterators Lab
 ## Functional Programming
