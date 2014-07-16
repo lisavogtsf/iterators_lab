@@ -1,7 +1,7 @@
 ## current status:
 * cloned to local repo
-* git initialed
-* virtually no changes
+* group work with squad
+* Phase-2, wrote test for min and implemented
 
 # Iterators Lab
 ## Functional Programming
