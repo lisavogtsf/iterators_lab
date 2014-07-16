@@ -1,3 +1,4 @@
+
 # Iterators Lab
 ## Functional Programming
 
@@ -12,7 +13,7 @@ In the iterators lab we will be continuing our exploration of iterators and buil
 Research the following term and summarize your findings on it two to three sentences:
 
 * `higher-order function`
-
+A higher-order function is a function that operates on either functions.  This can be done by taking in a function as a parameter, creating a function or returning a function
 
 Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
 
@@ -22,6 +23,9 @@ Pretending we implemented the following methods, update this README with a descr
 * `each`
 * `map`
 * `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+The function takes out all items in an array that successfully meet the criteria.
+
 * `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 * `reject`: [note](http://underscorejs.org/#reject)
 
